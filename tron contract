@@ -1,0 +1,4 @@
+npm install
+tronbox compile
+docker run --rm -p 9090:9090 -e useDefaultPrivateKey=true tronbox/tre   # separate terminal
+tronbox test
